@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main {
+  max-width: 500px;
+  margin: auto;
+  background: pink;
+  display: grid;
+  padding: 16px;
+}
+.left-part {
+  float: left;
+  width: 50%;
+}
+.right-part {
+  float: left;
+  width: 50%;
+  padding-left: 27px;
+}
+.right-part li {
+  list-style: none;
+}
+.btn button {
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  margin: 0px;
+}
+.right-part button {
+  padding: 7px 17px;
+  font-size: 14px;
+}
+.btn {
+  display: flex;
+}
+.first {
+  display: flex;
+  margin-top: 10px;
+  gap: 7px;
+}
+.secound {
+  display: flex;
+  margin-top: 10px;
+  gap: 7px;
+}
+.third {
+  display: flex;
+  margin-top: 10px;
+  gap: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    max-width: 100%;
+  }
+  .res {
+    display: grid;
+    gap: 22px;
+    justify-content: center;
+  }
+  .left-part {
+    float: left;
+    width: 100%;
+  }
+  .right-part {
+    float: left;
+    width: 100%;
+  }
+  .right-part li {
+    list-style: none;
+  }
+  .btn button {
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+  }
+  .winner h1 {
+    font-size: 45px;
+  }
+  .right-part button {
+    padding: 7px 17px;
+    font-size: 29px;
+    margin-left: 10px;
+  }
+}
